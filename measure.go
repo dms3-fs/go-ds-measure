@@ -1,14 +1,14 @@
 // Package measure provides a Datastore wrapper that records metrics
-// using github.com/ipfs/go-metrics-interface
+// using github.com/dms3-fs/go-metrics-interface
 package measure
 
 import (
 	"io"
 	"time"
 
-	"github.com/ipfs/go-datastore"
-	"github.com/ipfs/go-datastore/query"
-	"github.com/ipfs/go-metrics-interface"
+	"github.com/dms3-fs/go-datastore"
+	"github.com/dms3-fs/go-datastore/query"
+	"github.com/dms3-fs/go-metrics-interface"
 )
 
 var (
